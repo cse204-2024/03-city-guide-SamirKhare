@@ -1,0 +1,26 @@
+header{
+    padding:10px;
+    background-color: orange;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+}
+body{
+    position:relative;
+    top:100px;
+    margin:0;
+    background-color:salmon;
+}
+.AttractionsList{
+    color:yellow
+}
+#BestAttraction{
+    font-weight:strong;
+}
+
+footer{
+    margin:0;
+    color:red;
+    background-color: blueviolet;
+}
