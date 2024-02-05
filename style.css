@@ -9,7 +9,7 @@ header{
     z-index:1;
 }
 h1, h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS';
 }
 body{
     position:relative;
@@ -22,6 +22,17 @@ body{
     font-size:larger;
     padding:10px;
     background-color:orchid;
+}
+ol{
+    list-style-type:upper-roman;
+}
+#BurjKhalifa{
+    color:purple;
+    position:relative;
+    right:10px;
+    bottom:200px;
+    float:top;
+    padding:10px;
 }
 img{
     height:300px;
@@ -44,16 +55,54 @@ img{
 table,th,td{
     border: 2px solid;
     border-collapse:collapse;
+    padding:10px;
 }
 .RestaurantImage{
     position:relative;
-    bottom:150px;
+    bottom:240px;
     left:400px;
 }
-
 footer{
     margin:0;
     color:red;
     background-color: blueviolet;
     padding:10px;
+}
+.AccountForm{
+    position:relative;
+    bottom:200px;
+    background-color:crimson;
+    padding:10px;
+    
+}
+tr:nth-child(odd){
+    background-color:darkcyan;
+}
+tr:nth-child(even){
+    background-color:seagreen;
+}
+th{
+    font-family: 'Franklin Gothic Medium';
+    color:darkblue;
+    background-color:darkslategrey;
+}
+.Links{
+    padding:10px;
+    background-color:lightseagreen;
+    font-size:larger;
+}
+a:link{
+    color:darkgreen;
+}
+a:visited{
+    color:blueviolet;
+}
+a:hover{
+    color:brown;
+}
+iframe{
+    height:450px;
+    width:600px;
+    position:relative;
+    bottom:200px;
 }

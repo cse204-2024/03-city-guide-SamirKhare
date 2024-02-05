@@ -3,10 +3,14 @@
 <html lang="en">
 <head>
     <title>
-        City Guide
+        Dubai City Guide
     </title>
+    <meta name="description" content="This webpage consists of a travel guide for Dubai. It contains a list of the Top 5 things to visit in the
+    city. It also contains reasoning for why tourists should visit the Burj Khalifa. Also has a table containing the best restaurants at four
+    different price points. It also has an account form and links for news websites.">
 </head>
 <body>
+    <main>
     <header>
         <h1>Dubai City Guide</h1>
     </header>
@@ -22,9 +26,23 @@
         <li>Legoland Dubai</li>
         </ol>
         <div class="AttractionImages">
-            <img src="https://www.usatoday.com/gcdn/presto/2022/02/24/USAT/b4415d84-6fe0-4139-8b47-50c5cd223f1e-GettyImages-1231061756.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp" alt="Burj Khalifa" title="Burj Khalifa Photo">
-            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/ee/fb/5d.jpg" alt="Dubai Fountain" title="Dubai Fountain">
-            </div>
+            <img src="https://www.usatoday.com/gcdn/presto/2022/02/24/USAT/b4415d84-6fe0-4139-8b47-50c5cd223f1e-GettyImages-1231061756.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp" alt="Burj Khalifa" title="Burj Khalifa Image">
+            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/ee/fb/5d.jpg" alt="Dubai Fountain" title="Dubai Fountain Image">
+        </div>
+        <div id="BurjKhalifa">
+            <h2>Why Does The Burj Khalifa Top Our List?</h2>
+            <p>It is a once in a lifetime oppurtunity to visit the tallest
+                building in not just the UAE but the entire world. The views
+                from the top of the building are truly breathtaking and offer
+                a great view of the Dubai Fountain. It is the apex of luxuray
+                and features many incredible high-end restaurants and shops.
+                This will be an experience you'll never forget!
+            </p>
+        </div>
+        <div>
+            <iframe title="DubaiMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1786541102915!2d55.271801474986624!3d25.19719697771095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sus!4v1707105057567!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- Got instructions to embed map from https://blog.hubspot.com/website/how-to-embed-google-map-in-html -->
     </section>
     <section class="RestaurantTable">
         <h2>
@@ -38,37 +56,53 @@
                 </tr>
              </thead>
              <tbody>
-            <tr>
+            <tr id="first">
                 <td>Fish Hut Restaurants</td>
                 <td>$</td>
             </tr>
-            <tr>
+            <tr id="second">
                 <td>Cinque</td>
                 <td>$$</td>
             </tr>
-            <tr>
+            <tr id="third">
                 <td>Swiss Butter</td>
                 <td>$$$</td>
             </tr>
-            <tr>
+            <tr id="fourth">
                 <td><strong>Jun's</strong></td>
                 <td>$$$$</td>
             </tr>
         </tbody>
         </table>
         <div class="RestaurantImage">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/15/0e/7a/getlstd-property-photo.jpg" alt="Swiss Butter Image">
-            <img src="https://www.theworlds50best.com/discovery/filestore/jpg/juns-dubai%20(1).jpg" alt="Jun's Image">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/1b/15/0e/7a/getlstd-property-photo.jpg" alt="Swiss Butter Image" title="Swiss Butter Image">
+            <img src="https://www.theworlds50best.com/discovery/filestore/jpg/juns-dubai%20(1).jpg" alt="Jun's Image" title="Jun's Image">
         </div>
     </section>
+    <div class="AccountForm">
+    <form>
+        <h2>Account Sign In</h2>
+        <label><em>Username:</em></label>
+        <input type="text" name="Username">
+        <label><em>Password:</em></label>
+        <input type="password" name="Password">
+        <button type="submit" name="Submit"><strong>Submit</strong></button>
+    </form>
+    <!-- Form doesn't actually lead anywhere -->
+    </div>
+    <hr>
+    <nav class="Links">
+        <h2>If you want to find out more about Dubai here are great news sources!</h2>
+       <ul>
+        <li><a href="https://gulfnews.com/" target="_blank">Gulf News</a></li>
+        <li><a href="https://www.emirates247.com/" target="_blank">Emirates 24/7</a></li>
+        <li><a href="https://thearabianpost.com/" target="_blank">Arabian Post</a></li>
+       </ul>
+    </nav>
     <footer>
         <p>Created by: Samir Khare</p>
         <p>Date Created: 02/01/24</p>
     </footer>
+    </main>
 </body>
-
-
-
-
-
 </html>
